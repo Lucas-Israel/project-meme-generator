@@ -30,8 +30,8 @@ img {
   font-family: sans-serif;
   color: white;
 }
-/* https://www.w3schools.com/howto/howto_css_image_text.asp */
 
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
 .text-block {
   position: absolute;
   bottom: 20px;
@@ -39,8 +39,8 @@ img {
   color: white;
   padding-right: 20px;
 }
-/* https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
 
+/* https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
 #fire {
   background-color: red;
 }
@@ -55,7 +55,7 @@ img {
 
 #section2 {
   display: inline-block;
-  vertical-align:top
+  vertical-align: top;
 }
 
 #meme-1 , #meme-2 , #meme-3 , #meme-4 {
