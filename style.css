@@ -3,24 +3,33 @@
 }
 
 #meme-image-container {
-  height: 500px;
+  height: 501px;
   width: 500px;
+  display: inline-block;
   background-color: white;
-  border: black solid 1px;
+  border: 1px solid black;
   position: relative;
 }
 
+#meme-insert {
+  margin-top: 10px;
+}
+
+#section1 {
+  margin-bottom: 10px;
+}
+
 img {
-  height: 500px;
+  height: 501px;
   width: 500px;
 }
 
 #meme-text {
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
-  font-family: sans; color: white;
+  font-family: sans-serif;
+  color: white;
 }
-
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
 
 .text-block {
@@ -28,8 +37,32 @@ img {
   bottom: 20px;
   left: 20px;
   color: white;
-  /* padding-left: 20px; */
   padding-right: 20px;
 }
-
 /* https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+#section2 {
+  display: inline-block;
+  vertical-align:top
+}
+
+#meme-1 , #meme-2 , #meme-3 , #meme-4 {
+  top: 0;
+  display: block;
+  height: 115px;
+  width: 115px;
+  border: black solid 2px;
+  margin-bottom: 9px;
+}
